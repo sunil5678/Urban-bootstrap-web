@@ -1,0 +1,389 @@
+body{
+    padding:0px;
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation start */
+
+#my-navigation{
+    background:none;
+    border:0;
+}
+
+#my-navigation .navbar-brand{
+    float:right;
+    width:120px;
+    
+   
+}
+
+#my-navigation .navbar-brand button{
+    background-color: #fff;
+    color:#000;
+    border:1px solid #000;
+    width:100px;
+    height:30px;
+    border-radius:2px;
+    margin-top:-20px;  
+}
+
+#my-navigation .navbar-brand button:hover{
+      background-color: royalblue;
+}
+
+#my-navigation .title p{
+    font-size:25px;
+    margin-left:80px;
+    color:#000;
+    padding-top: 10px;
+    font-family: 'Lobster', cursive;
+}
+
+#my-navigation .navbar-toggle{
+    display: block;
+    float:none;
+    border:0;
+    position:relative;
+    top:-40px;
+}
+
+#my-navigation .navbar-toggle:hover{
+    background-color: royalblue;
+    color: #fff;
+}
+
+#my-navigation .icon-bar{
+         background-color:#000;
+}
+
+#my-navigation a{
+    color:#000;
+}
+
+#my-navigation a:hover{
+    color:royalblue;
+}
+
+/* Navigation end */
+
+/* banner start */
+
+.banner{
+    background-image: url("../img/banner.jpg");
+    height:350px;
+    background-size:cover;
+    position: relative;
+    top:-35px;
+}
+
+.banner-text{
+    width:40%;
+    margin: auto;
+    margin-top:100px;
+}
+
+.banner-text h3{
+    color:royalblue;
+    font-size:30px;
+}
+
+p{
+    color:gray;
+    font-size: 12px;
+    line-height:25px;
+}
+
+.banner-text button{
+    background-color: royalblue;
+    color:#fff;
+    width:150px;
+    height:40px;
+    border:0;
+}
+
+.banner-text button:hover{
+    
+    background-color:black ;
+}
+
+/* Main start */
+
+
+.part-1{
+    text-align: right;
+}
+
+.part-1 h4{
+    color:royalblue;
+}
+
+.part-2{
+    border-radius:50%;
+    border:0;
+}
+
+.part-2 img{
+    border-radius:50%;
+}
+
+.part-3{
+    text-align:left;
+}
+
+.part-3 h4{
+    color:royalblue;
+}
+
+/* main end */
+
+/* section start */
+
+section{
+    padding:30px 0;
+    background-color: #000;
+    color:#fff;
+    margin-top:20px;
+}
+
+/* section end */
+
+/* three section start */
+
+.three-section{
+    padding:50px 50px;
+    width:100%;
+}
+
+.three-section .one{
+    width:100%;
+   border:1px solid #000;
+}
+
+.three-section img{
+    width:100%;
+}
+
+.one h4{
+    color:royalblue;
+    padding-left: 10px;
+}
+
+.one p{
+    padding-left: 10px;
+}
+
+/* three section end */
+
+/* footer start */
+
+footer{
+    padding:30px;
+    background-color: royalblue;
+    color:#fff;
+}
+
+footer .fa{
+    color: black;
+    margin-left: 15px;
+}
+
+footer hr{
+    width:35%;
+}
+
+footer p{
+    color:#fff;
+}
+
+/* footer end */
+
+/* media quiery start */
+
+@media only screen and (max-width:1000px){
+    #my-navigation{
+       width:100%;
+       padding:0;
+    }
+
+    #my-navigation .navbar-header{
+        margin-right:30px;
+    }
+    
+    #my-navigation .navbar-brand{
+        float:right;
+        width:100px; 
+    }
+
+   
+    
+    #my-navigation .navbar-brand button{
+        width:60px;
+        height:20px;
+        border-radius:1px;
+        position:relative;
+        top:-12px; 
+        font-size:8px; 
+        margin-left: 40px;
+    }
+    
+    #my-navigation .title p{
+        font-size:15px;
+        margin-left:80px;
+        color:#000;
+        padding-top: 10px;
+        font-family: 'Lobster', cursive;
+    }
+    
+    #my-navigation .navbar-toggle{
+        position:relative;
+        top:-45px;
+        right:20px;
+    }
+    
+    #my-navigation .navbar-toggle:hover{
+        background-color:transparent;
+        color: #fff;
+       
+    }
+    
+    #my-navigation .icon-bar{
+             background-color:#000;
+             font-size: 12px;
+    }
+    
+    /* banner start */
+
+.banner{
+    height:200px;
+    background-position:center;
+    position: relative;
+    top:-70px;
+    width:100%;
+}
+
+.banner-text{
+    width:100%;
+    margin-top:50px;
+}
+
+.banner-text h3{
+    font-size:15px;
+}
+
+p{
+    color:gray;
+    font-size: 8px;
+    line-height:15px;
+}
+
+.banner-text button{
+    width:80px;
+    height:25px;
+    border:0;
+    font-size: 8px;
+}
+
+/* banner end */
+
+/* Main start */
+
+main{
+    margin-top:-50px;
+}
+.part-1{
+    text-align:left;
+    width:100%;
+
+}
+
+.part-1 h4{
+    color:royalblue;
+    font-size: 12px;
+}
+
+.part-2{
+    border-radius:50%;
+    border:0;
+    width:100%;
+}
+
+.part-2 img{
+    border-radius:50%;
+    width:100%;
+}
+
+/* main end */
+
+/* section start */
+
+section{
+    padding:20px 0;
+    background-color: #000;
+    color:#fff;
+    margin-top:10px;
+}
+
+section h3{
+    font-size:15px;
+}
+
+/* section end */
+
+/* three section start */
+
+.three-section{
+    padding:30px 0;
+    width:100%;
+}
+
+.three-section .one{
+    width:100%;
+   border:1px solid #000;
+}
+
+.three-section img{
+    width:100%;
+}
+
+.one h4{
+    color:royalblue;
+    padding-left: 10px;
+}
+
+.one p{
+    padding-left: 10px;
+}
+
+/* three section end */
+
+footer{
+    padding:10px 0;
+}
+
+footer h3{
+    font-size:15px;
+}
+
+footer .fa{
+    color: black;
+    margin-left:10px;
+}
+
+footer hr{
+    width:50%;
+}
+
+
+footer p{
+    margin-top:-10px;
+}
+
+/* footer end */
+
+
+
+
+    
+
+}
